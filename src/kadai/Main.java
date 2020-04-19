@@ -24,11 +24,17 @@ public class Main {
 			Increment_two_second.fourFor();
 		} else if(practiceNo == 3) {
 			Threeyearslatertoday_two_third.threeYearslatertoday();
+		} else if(practiceNo == 4) {
+			Judge_two_fourth.randomNumber();
+		} else if(practiceNo == 5) {
+			DisplayOfMap.askDisplayNumber();
 		} else if(practiceNo == 13) {
 			//一気に実行
 			greetingHelloWorld_two_first.greeting();
 			Increment_two_second.fourFor();
 			Threeyearslatertoday_two_third.threeYearslatertoday();			
+			Judge_two_fourth.randomNumber();
+			DisplayOfMap.askDisplayNumber();
 		} else if(practiceNo == 14) {
 			//終了させる
 			System.out.println("処理を終了します、見ていただいてありがとうございました！");
