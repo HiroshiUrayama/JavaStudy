@@ -2,9 +2,9 @@ package kadai;
 
 import java.util.Random;
 
-public class Judge_two_fourth {
-	static void randomNumber() {
- 
+class Judge_two_fourth {
+	void randomNumber() {
+
 		//乱数を生成する(0or1)
 		Random r = new Random();
 		int rNum = r.nextInt(2);
@@ -15,7 +15,7 @@ public class Judge_two_fourth {
 		System.out.println("課題4　終了=====================");
 
 	}
-	
+
 	//int型のrNumを引数に取って真偽を判定するメソッド
 	private static void judgeRandomNumber(int rNumber) {
 		if(rNumber == 0) {

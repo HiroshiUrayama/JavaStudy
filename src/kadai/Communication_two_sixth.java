@@ -1,5 +1,6 @@
 package kadai;
 
 public interface Communication_two_sixth {
-	//interface作成のみ
+	//実装を持たないメソッド
+	public String greet(String aisatu);
 }

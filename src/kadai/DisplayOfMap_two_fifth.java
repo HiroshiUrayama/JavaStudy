@@ -5,8 +5,8 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Scanner;
 
-public class DisplayOfMap_two_fifth {
-	public static void askDisplayNumber() {
+class DisplayOfMap_two_fifth {
+	void askDisplayNumber() {
 		//先にmapにリストを入れておく
 		Map<Integer , String> map = new HashMap<Integer , String>();
 		map.put(1, "ちえぺん");

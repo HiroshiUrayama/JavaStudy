@@ -1,7 +1,8 @@
 package kadai;
 
-public class Increment_two_second {
-	public static void fourFor() {
+//20200422アクセス修飾子を無名に変更
+class Increment_two_second {
+	public void fourFor() {
 		int sum = 0;
 		for(int i = 1 ; i < 11 ; i++) {
 			sum += i;
