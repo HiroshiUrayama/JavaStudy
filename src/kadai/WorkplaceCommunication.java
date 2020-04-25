@@ -1,13 +1,37 @@
 package kadai;
 
+import java.util.Random;
+
 //Communication_two_sixthインタフェースの実装クラス
 public class WorkplaceCommunication implements Communication_two_sixth {
+	//職場かどうかを判断するフィールド
+	private Boolean isWorkPlace;
+	
+	//コンストラクタ
+	public WorkplaceCommunication() {
+		//Randomクラスを生成
+		Random r = new Random();
+
+		//int型の変数に入れる
+		int randomNum = r.nextInt(2);
+		
+		//職場か否かを判断する
+		if(randomNum == 0 ) {
+			this.isWorkPlace = true;
+		} else {
+			this.isWorkPlace = false;
+		}
+	}
+	
 	@Override
-	public String greet(String aisatu) {
-		return aisatu;
+	public String greet(boolean doko) {
+		if (this.isWorkPlace == true) {
+			return "Hello!";
+		} else {
+			return "心の声「嫌だからやめておこう」";
+		}
 	}
 }
-
 //職場にいるかどうかは、
 	//引数
 	//ランダムに生成して判断する
