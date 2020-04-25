@@ -23,11 +23,3 @@ class Threeyearslatertoday_two_third {
 		System.out.println("課題3　終了=====================");
 	}
 }
-/*見本
-System.out.println(date.format(formatter)); // yyyy/MM/dd MMは大文字*/
-
-/*一応、DayOfWeek使いましたが、↑のDateTimeFormatterで一気に出力できたので以下に文を記載
-DateTimeFormatter fmtDow = DateTimeFormatter.ofPattern("E曜日");
-DayOfWeek dateDayOfWeek = date.getDayOfWeek();　今日
-DayOfWeek threeYearsLaterDateDayOfWeek = threeYearsLaterdate.getDayOfWeek();　3年後
-System.out.println(date.format(fmtDow));*/
