@@ -10,7 +10,7 @@ public class Main {
 
 	//課題選択メソッド(1~6が課題番号に対応、7は停止)
 	static void practiceCheck() {
-		System.out.println("課題番号を入力してください。");
+		System.out.println("課題番号を入力してください。1~6が課題、7で離脱");
 		Scanner scan = new Scanner(System.in);
 
 		//入力した課題番号を格納する
